@@ -11,12 +11,12 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class="">
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-black">
       <div class="container-fluid d-flex flex-end">
-        <a class="navbar-brand" href="#">Barber Shop</a>
+        <a class="navbar-brand text-light" href="#">Barber Shop</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -31,15 +31,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active d-flex" aria-current="page" href="#"
+              <a
+                class="nav-link active d-flex text-light"
+                aria-current="page"
+                href="#"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link text-light" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link text-light" href="">Contact</a>
             </li>
           </ul>
         </div>
@@ -47,15 +50,15 @@
     </nav>
 
     <!-- Main -->
-    <main>
+    <main class="bg-black">
       <!-- Cards -->
       <div class="cards-container">
         <section class="d-flex flex-nowrap row align-items-md-stretch p-5">
           <div class="col-md-6 d-flex align-content-center mt-5">
-            <div class="h-100 p-5 rounded-3 text-dark">
-              <h2 class="fs-6 text">BINE AI VENIT</h2>
-              <h2>O noua experienta pentru tine</h2>
-              <p>
+            <div class="h-100 p-5 rounded-3 text-light">
+              <h2 class="fs-6 text-light">BINE AI VENIT</h2>
+              <h2 class="text-light">O noua experienta pentru tine</h2>
+              <p class="text-light">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Aliquam at, quia eaque vitae autem cum tempora odit voluptates
                 inventore minima maiores natus voluptate odio! Adipisci beatae
@@ -91,7 +94,7 @@
           class="d-flex flex-nowrap row align-items-md-stretch border border-5 p-5"
         >
           <div class="col-md-6">
-            <div class="h-100 p-5 rounded-3 text-dark">
+            <div class="h-100 p-5 rounded-3 text-light">
               <h2 class="fs-6 text">BINE AI VENIT</h2>
               <h2>O noua experienta pentru tine</h2>
               <p>
@@ -105,62 +108,99 @@
         </section>
 
         <section class="d-flex justify-content-around row border border-5 p-5">
-          <ul class="d-flex col-md-6">
+          <h2 class="pb-5 text-light">Orar</h2>
+          <ul class="d-flex d-flex justify-content-between">
             <li
-              class="rounded-pill w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-pill d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 150px;
+              "
             >
-              <div class="w-50 h-50">LUN</div>
-              <div class="w-20 h-20">09:30 - 19:00</div>
+              <div class="d-flex align-self-center h1" style="width: 90px; height: 20px">Lun</div>
+              <div class="d-flex align-self-center h6" style="width: 120px; height: 30px">09:00 - 19:00</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-pill d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 150px;
+              "
             >
-              <div class="wtime-day">MAR</div>
-              <div class="wtime-whours">09.30 - 19.00</div>
+              <div class="d-flex align-self-center h1" style="width: 90px; height: 20px">Mar</div>
+              <div class="d-flex align-self-center h6" style="width: 120px; height: 30px">09:00 - 19:00</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-pill d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 150px;
+              "
             >
-              <div class="wtime-day">MIE</div>
-              <div class="wtime-whours">09:30 - 19:00</div>
+              <div class="d-flex align-self-center h1" style="width: 90px; height: 20px">Mie</div>
+              <div class="d-flex align-self-center h6" style="width: 120px; height: 30px">09:00 - 19:00</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-pill d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 150px;
+              "
             >
-              <div class="wtime-day">JOI</div>
-              <div class="wtime-whours">09:30 - 19:00</div>
+              <div class="d-flex align-self-center h1" style="width: 90px; height: 20px">Joi</div>
+              <div class="d-flex align-self-center h6" style="width: 120px; height: 30px">09:00 - 19:00</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-pill d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 150px;
+              "
             >
-              <div class="wtime-day">VIN</div>
-              <div class="wtime-whours">09:30 - 19:00</div>
+              <div class="d-flex align-self-center h1" style="width: 90px; height: 20px">Vin</div>
+              <div class="d-flex align-self-center h6" style="width: 120px; height: 30px">09:00 - 19:00</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-pill d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 150px;
+              "
             >
-              <div class="wtime-day">SÂM</div>
-              <div class="wtime-whours">11:00 - 19:00</div>
+              <div class="d-flex align-self-center h1" style="width: 100px; height: 20px">Sam</div>
+              <div class="d-flex align-self-center h6" style="width: 120px; height: 30px">09:00 - 19:00</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #343434; color: #fff"
+              class="rounded-pill d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 150px;
+              "
             >
-              <div class="wtime-day">DUM</div>
-              <div class="wtime-whours">ÎNCHIS</div>
+              <div class="d-flex align-self-center h1" style="width: 110px; height: 20px">Dum</div>
+              <div class="d-flex align-self-center h6" style="width: 70px; height: 30px">Inchis</div>
             </li>
+          </ul>
           </ul>
         </section>
 
@@ -168,226 +208,379 @@
         <section
           class="d-flex justify-content-around row align-items-md-stretch border border-5 p-5"
         >
-          <h2 class="d-flex">Pick a date</h2>
-          <ul class="d-flex">
+          <h2 class="d-flex pb-5 text-light">Pick a date</h2>
+          <ul class="d-flex justify-content-between">
             <li
-              class="rounded-1 w-50 h-200 flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 200px;
+              "
             >
-              <div class="" style="width: 100px; height: 100px">15</div>
-              <div class="w-20 h-20">Iunie</div>
+              <div class="d-flex align-self-center  h1" style="width: 80px; height: 20px">15</div>
+              <div class="d-flex align-self-center h3" style="width: 90px; height: 45px">Iunie</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 200px;
+              "
             >
-              <div class="wtime-day">MAR</div>
-              <div class="wtime-whours">09.30 - 19.00</div>
+              <div class="d-flex align-self-center  h1" style="width: 80px; height: 20px">16</div>
+              <div class="d-flex align-self-center h3" style="width: 90px; height: 45px">Iunie</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 200px;
+              "
             >
-              <div class="wtime-day">MIE</div>
-              <div class="wtime-whours">09:30 - 19:00</div>
+              <div class="d-flex align-self-center  h1" style="width: 80px; height: 20px">17</div>
+              <div class="d-flex align-self-center h3" style="width: 90px; height: 45px">Iunie</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 200px;
+              "
             >
-              <div class="wtime-day">JOI</div>
-              <div class="wtime-whours">09:30 - 19:00</div>
+              <div class="d-flex align-self-center  h1" style="width: 80px; height: 20px">18</div>
+              <div class="d-flex align-self-center h3" style="width: 90px; height: 45px">Iunie</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 200px;
+              "
             >
-              <div class="wtime-day">VIN</div>
-              <div class="wtime-whours">09:30 - 19:00</div>
+              <div class="d-flex align-self-center  h1" style="width: 80px; height: 20px">19</div>
+              <div class="d-flex align-self-center h3" style="width: 90px; height: 45px">Iunie</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 200px;
+              "
             >
-              <div class="wtime-day">SÂM</div>
-              <div class="wtime-whours">11:00 - 19:00</div>
+              <div class="d-flex align-self-center h1" style="width: 80px; height: 20px">20</div>
+              <div class="d-flex align-self-center h3" style="width: 90px; height: 45px">Iunie</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #343434; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 150px;
+                height: 200px;
+              "
             >
-              <div class="wtime-day">DUM</div>
-              <div class="wtime-whours">ÎNCHIS</div>
+              <div class="d-flex align-self-center h1" style="width: 80px; height: 20px">21</div>
+              <div class="d-flex align-self-center h3" style="width: 90px; height: 45px">Iunie</div>
             </li>
+            
           </ul>
         </section>
 
         <!-- Pick a time -->
         <section class="d-flex row align-items-md-stretch border border-5 p-5">
-          <h2 class="d-flex">Pick a time</h2>
-          <ul class="d-flex">
+          <h2 class="d-flex text-light">Pick a time</h2>
+          <ul class="d-flex justify-content-between">
             <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
             >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
-            </li>
-            <li
-              class="rounded-1 w-100 h-150 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
-            >
-              <div class="w-50 h-50">15</div>
-              <div class="w-20 h-20">Iunie</div>
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">09:00</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">AM</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
             >
-              <div class="wtime-day">MAR</div>
-              <div class="wtime-whours">09.30 - 19.00</div>
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">09:30</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">AM</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
             >
-              <div class="wtime-day">MIE</div>
-              <div class="wtime-whours">09:30 - 19:00</div>
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">10:00</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">AM</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
             >
-              <div class="wtime-day">JOI</div>
-              <div class="wtime-whours">09:30 - 19:00</div>
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">10:30</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">AM</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
             >
-              <div class="wtime-day">VIN</div>
-              <div class="wtime-whours">09:30 - 19:00</div>
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">11:00</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">AM</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #ffc400; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
             >
-              <div class="wtime-day">SÂM</div>
-              <div class="wtime-whours">11:00 - 19:00</div>
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">11:30</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">AM</div>
             </li>
 
             <li
-              class="rounded-pill w-100 h-100 align-content-center d-flex justify-content-around flex-wrap"
-              style="background: #343434; color: #fff"
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
             >
-              <div class="wtime-day">DUM</div>
-              <div class="wtime-whours">ÎNCHIS</div>
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">12:00</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">12:30</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">01:00</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">01:30</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
             </li>
           </ul>
+
+          <ul class="d-flex justify-content-between">
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">02:00</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">02:30</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">03:00</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">03:30</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">04:00</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">04:30</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">05:00</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">05:30</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">06:00</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+
+            <li
+              class="rounded-1 d-flex row justify-content-around"
+              style="
+                background: #ffa600;
+                color: #070707;
+                width: 100px;
+                height: 100px;
+              "
+            >
+              <div class="d-flex align-self-center h4" style="width: 85px; height: 10px">06:30</div>
+              <div class="d-flex align-self-center h6" style="width: 50px; height: 10px">PM</div>
+            </li>
+          </ul>
+
+          
         </section>
       </div>
     </main>
 
     <!-- Footer -->
-    <footer class="py-5">
+    <footer class="py-5 bg-black">
       <div class="row">
         <div class="row d-flex flex-column flex-sm-row justify-content-around">
-          <div class="col-6 col-md-2 mb-3">
+          <div class="col-6 col-md-2 mb-3 text-light">
             <h3>Despre noi</h3>
             <div class="textwidget custom-html-widget">
               <p style="text-align: justify">
@@ -399,7 +592,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-md-2 mb-3">
+          <div class="col-6 col-md-2 mb-3 text-light">
             <h3>Contact</h3>
             <div class="">
               <i class=""></i>Timișoara, Str. Piața Victoriei, Nr. 7<br />
@@ -413,7 +606,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-md-2 mb-3">
+          <div class="col-6 col-md-2 mb-3 text-light">
             <h3>Orar</h3>
             <div class="">
               <div class="">
@@ -430,9 +623,7 @@
         </div>
       </div>
 
-      <div
-        class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
-      >
+      <div class="text-light">
         <p>© 2024 Company, Inc. All rights reserved.</p>
       </div>
     </footer>
